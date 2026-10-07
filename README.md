@@ -72,6 +72,8 @@ method,dataset,metric,seed,value
 
 Skill 会检查缺失值、重复 seed、指标方向、单位、baseline、聚合方式和置信区间，然后选择合适的图表类型并生成：
 
+静态科研图表默认使用 Python `matplotlib`；只有用户明确要求交互式图表或指定其他绘图库时才切换。Seaborn 仅作为 Matplotlib 的辅助工具使用。
+
 - 300–600 DPI PNG
 - PDF/SVG 矢量图
 - 可复现的 Python 绘图源代码

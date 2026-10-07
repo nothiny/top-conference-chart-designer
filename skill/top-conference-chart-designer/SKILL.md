@@ -7,6 +7,8 @@ description: Create, revise, and quality-check publication-ready data figures fr
 
 Use this skill when the user wants a data chart for a paper, poster, technical report, or benchmark and asks for a polished, top-conference-style result. Use native plotting code for scientific figures; do not use image generation or hand-drawn raster editing because every mark must remain faithful to the data.
 
+**Default plotting library:** use Python `matplotlib` for static scientific figures unless the user explicitly requests another library or an interactive chart. Use Seaborn only as a helper on top of Matplotlib, and use Plotly or another interactive library only when interactivity is part of the requested output.
+
 ## Workflow
 
 1. **Inspect the input.** Locate the supplied CSV, TSV, JSON, XLSX, Parquet, or in-memory table. For a file, run `scripts/inspect_data.py` when practical to record column names, inferred types, units, missing values, ranges, row count, and an input SHA-256. Read duplicate rows and experimental semantics as well. Preserve the original file and never invent missing values. If the intended comparison, grouping, metric, or uncertainty is genuinely ambiguous, ask one focused question; otherwise make the smallest defensible assumption and state it in the figure manifest.
