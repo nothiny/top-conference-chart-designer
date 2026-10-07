@@ -1,0 +1,4 @@
+interface:
+  display_name: "Top Conference Chart Designer"
+  short_description: "Generate polished, reproducible paper figures"
+  default_prompt: "Use $top-conference-chart-designer to turn my data into a publication-ready figure with source code and QA outputs."

@@ -1,0 +1,23 @@
+# Local crawler inputs, PDFs, uncompressed images, and scratch experiments
+paper_chart_corpus/
+figure_output/
+cvpr2024_figures_500/
+cvpr2024_figures_test/
+mixed_test/
+mixed_test2/
+mixed_top_conference_figures_500/
+cvpr2024_figures_test/
+xx/
+__pycache__/
+*.pyc
+*.pdf
+triton_speedup.png
+plot_speedup.py
+bytevirt-*.yaml
+bytevirt-*.txt
+
+# Keep the published site and installable skill tracked.
+!docs/
+!docs/**
+!skill/
+!skill/**

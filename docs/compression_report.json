@@ -1,0 +1,11 @@
+{
+  "method": "lossless WebP",
+  "catalog_records": 2737,
+  "unique_images": 2637,
+  "original_unique_bytes": 185095518,
+  "compressed_unique_bytes": 100002537,
+  "compression_ratio": 0.5403,
+  "pixel_mismatches": 0,
+  "original_pngs_preserved": true,
+  "github_export": "github_export/"
+}
